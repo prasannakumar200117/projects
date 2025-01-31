@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:projects/pages/user_chat.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
+
+  // static const String id = 'home_page';
 
   @override
   Widget build(BuildContext context) {
@@ -80,7 +83,7 @@ class HeadCard extends StatelessWidget {
       foregroundColor: Colors.grey[300], 
     ),
     onPressed: () {
-      Navigator.pushNamed(context, '/userchat');
+      Navigator.pushNamed(context, 'userchat', arguments: 'Hey Prasanna');
     },
     child: Icon(
       Icons.person,
@@ -315,6 +318,7 @@ class CampaignGoalCard extends StatelessWidget {
 
 Widget User(String usname, String imageUrl, String amount) {
   return Container(
+    
     padding: EdgeInsets.all(20),
     decoration: BoxDecoration(
       color: Color(0xFFCFEDF7),

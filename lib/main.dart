@@ -10,17 +10,20 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,      
       home: HomePage(),
       routes: {
-        '/home' : (context) => const HomePage(),
-        '/userchat' : (context) => const UserChat()
+        // HomePage.id : (context) => const HomePage(),
+        // UserChat.id : (context) => const UserChat()
+
+         'home' : (context) => const HomePage(),
+        'userchat' : (context) => const UserChat()
       },
-      initialRoute: '/userchat',
+      initialRoute: 'home',
     );
   }
 }
