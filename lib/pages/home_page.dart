@@ -83,7 +83,7 @@ class HeadCard extends StatelessWidget {
       foregroundColor: Colors.grey[300], 
     ),
     onPressed: () {
-      Navigator.pushNamed(context, 'userchat', arguments: 'Hey Prasanna');
+      Navigator.pushNamed(context, 'userchat', arguments: 'Hey Prasanna 123');
     },
     child: Icon(
       Icons.person,
@@ -166,6 +166,15 @@ Widget DonationJar(String abc,) {
   return  Column(
   // mainAxisSize: MainAxisSize.min, 
   children: [
+
+//     Container(
+//       child: InkWell(                        
+//   child: Text("data"),                        
+//   onTap: () {                          
+//   print("tapped on container");
+//   },                      
+// )
+//     ),
     
     Container(
       width: 200,

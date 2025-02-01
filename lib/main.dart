@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
          'home' : (context) => const HomePage(),
         'userchat' : (context) => const UserChat()
       },
-      initialRoute: 'home',
+      initialRoute: '/',
     );
   }
 }
