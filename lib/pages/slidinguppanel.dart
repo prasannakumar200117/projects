@@ -5,6 +5,8 @@ import 'package:sliding_up_panel/sliding_up_panel.dart';
 
 
 class SlidingUpPanelDemo extends StatelessWidget {
+  const SlidingUpPanelDemo({super.key});
+
   
   @override
   Widget build(BuildContext context) {
