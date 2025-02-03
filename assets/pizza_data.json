@@ -1,0 +1,215 @@
+{
+    "pizzas": [
+      {
+        "name": "Margherita",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 8.99
+          },
+          {
+            "size": "Medium",
+            "rate": 12.99
+          },
+          {
+            "size": "Large",
+            "rate": 16.99
+          },
+          {
+            "size": "Extra Large",
+            "rate": 19.99
+          }
+        ]
+      },
+      {
+        "name": "Pepperoni",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 9.99
+          },
+          {
+            "size": "Medium",
+            "rate": 13.99
+          },
+          {
+            "size": "Large",
+            "rate": 17.99
+          },
+          {
+            "size": "Extra Large",
+            "rate": 21.99
+          }
+        ]
+      },
+      {
+        "name": "Vegetarian",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 7.99
+          },
+          {
+            "size": "Medium",
+            "rate": 11.99
+          },
+          {
+            "size": "Large",
+            "rate": 15.99
+          },
+          {
+            "size": "Extra Large",
+            "rate": 18.99
+          }
+        ]
+      },
+      {
+        "name": "BBQ Chicken",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 10.99
+          },
+          {
+            "size": "Medium",
+            "rate": 14.99
+          },
+          {
+            "size": "Large",
+            "rate": 18.99
+          },
+          {
+            "size": "Extra Large",
+            "rate": 22.99
+          }
+        ]
+      },
+      {
+        "name": "Hawaiian",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 8.49
+          },
+          {
+            "size": "Medium",
+            "rate": 12.49
+          },
+          {
+            "size": "Large",
+            "rate": 16.49
+          },
+          {
+            "size": "Extra Large",
+            "rate": 19.49
+          }
+        ]
+      },
+      {
+        "name": "Meat Lovers",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 11.99
+          },
+          {
+            "size": "Medium",
+            "rate": 15.99
+          },
+          {
+            "size": "Large",
+            "rate": 19.99
+          },
+          {
+            "size": "Extra Large",
+            "rate": 23.99
+          }
+        ]
+      },
+      {
+        "name": "Four Cheese",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 8.49
+          },
+          {
+            "size": "Medium",
+            "rate": 12.49
+          },
+          {
+            "size": "Large",
+            "rate": 16.49
+          },
+          {
+            "size": "Extra Large",
+            "rate": 19.99
+          }
+        ]
+      },
+      {
+        "name": "Supreme",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 10.49
+          },
+          {
+            "size": "Medium",
+            "rate": 14.49
+          },
+          {
+            "size": "Large",
+            "rate": 18.49
+          },
+          {
+            "size": "Extra Large",
+            "rate": 21.49
+          }
+        ]
+      },
+      {
+        "name": "Buffalo Chicken",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 9.49
+          },
+          {
+            "size": "Medium",
+            "rate": 13.49
+          },
+          {
+            "size": "Large",
+            "rate": 17.49
+          },
+          {
+            "size": "Extra Large",
+            "rate": 20.49
+          }
+        ]
+      },
+      {
+        "name": "Pesto Chicken",
+        "sizes": [
+          {
+            "size": "Small",
+            "rate": 10.49
+          },
+          {
+            "size": "Medium",
+            "rate": 14.49
+          },
+          {
+            "size": "Large",
+            "rate": 18.49
+          },
+          {
+            "size": "Extra Large",
+            "rate": 22.49
+          }
+        ]
+      }
+    ]
+  }
+  

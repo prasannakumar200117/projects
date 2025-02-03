@@ -48,6 +48,11 @@ class HomePage extends StatelessWidget {
               ),
             ],
           ),
+          
+          
+          // ElevatedButton(onPressed: () {
+          //   Navigator.pushNamed(context, 'bottomsheet');
+          // }, child: Text('sliding panel'))
         ],
       ),)
     );
@@ -83,7 +88,8 @@ class HeadCard extends StatelessWidget {
       foregroundColor: Colors.grey[300], 
     ),
     onPressed: () {
-      Navigator.pushNamed(context, 'userchat', arguments: 'Hey Prasanna 123');
+      // Navigator.pushNamed(context, 'userchat', arguments: 'Hey Prasanna 123');
+      Navigator.pushNamed(context, 'bottomsheet');
     },
     child: Icon(
       Icons.person,
@@ -102,10 +108,13 @@ class HeadCard extends StatelessWidget {
       padding: EdgeInsets.all(10), 
       foregroundColor: Colors.grey[300], 
     ),
-    onPressed: () {},
+    onPressed: () {
+      Navigator.pushNamed(context, 'modal');
+    },
     child: Icon(
       Icons.settings,
       color: Colors.black,
+      
     ),
   ),
 ),

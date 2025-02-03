@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 class UserChat extends StatefulWidget {
   const UserChat({super.key});
@@ -15,25 +14,10 @@ class _UserChatState extends State<UserChat> {
   @override
   void initState() {
     super.initState();
-    loadMessages(); 
-  }
-
-  Future<void> loadMessages() async {
-    final prefs = await SharedPreferences.getInstance();
-    setState(() {
-      messages = prefs.getStringList('messages') ?? [];
-      print('messages: $messages'); 
-      
-    });
-  }
-
-  Future<void> saveMessages() async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setStringList('messages', messages);
-      print('messages1: $messages'); 
     
   }
 
+  
   void _sendMessage() async {
     if (_textController.text.isNotEmpty) {
       setState(() {
@@ -41,7 +25,7 @@ class _UserChatState extends State<UserChat> {
       });
 
       _textController.clear(); 
-      await saveMessages(); 
+      
     }
   }
 
